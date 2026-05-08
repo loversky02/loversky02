@@ -20,9 +20,6 @@ Knowledge Management · Claude Code · Gemini/Antigravity
   <a href="https://github.com/loversky02" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-loversky02-181717?style=flat-square&logo=github" alt="GitHub" />
   </a>
-  <a href="mailto:your-email@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-your--email%40gmail.com-EA4335?style=flat-square&logo=gmail" alt="Email" />
-  </a>
 </p>
 
 ---
