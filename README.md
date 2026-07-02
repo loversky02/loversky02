@@ -1,71 +1,59 @@
-<div align="center">
+<h1 align="center">Vuong Tran Dinh Minh</h1>
 
-# 👋 WELCOME TO MY PAGE 👋
+<p align="center">
+  <b>AI Engineer</b> &nbsp;·&nbsp; Agent-First Development &nbsp;·&nbsp; Harness Engineering
+</p>
+<p align="center">
+  <a href="https://vinuni.edu.vn/">VinUniversity</a> &nbsp;·&nbsp; Vietnam &nbsp;🇻🇳
+</p>
 
-My name is **Vuong Tran Dinh Minh**. I'm an AI Engineer focused on agent-first
-development and harness engineering. Currently studying at **VinUni**.
-
-I build the operating system around repositories — instructions, intake gates,
-story templates, validation expectations, feedback loops — so AI agents can
-execute reliably instead of guessing.
-
-**Interests:** Agent Operating Systems · Harness Engineering · MCP Tools ·
-Knowledge Management · Claude Code · Gemini/Antigravity
-
----
-
-## 📫 How to reach me:
-
-<p>
-  <a href="https://github.com/loversky02" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-loversky02-181717?style=flat-square&logo=github" alt="GitHub" />
-  </a>
+<p align="center">
+  <i>I turn fresh research papers into runnable, verifiable demos.</i><br/>
+  A series I call <b>Build&nbsp;with&nbsp;Paper</b> — read the paper, ship the demo, prove it runs.
 </p>
 
 ---
 
-## 📊 GitHub Stats
+### About
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=loversky02&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=loversky02&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" width="48%" />
-</p>
-
----
-
-## 🛠️ Featured Projects
-
-<p align="center">
-  <a href="https://github.com/loversky02/harness-experimental">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=loversky02&repo=harness-experimental&theme=radical&hide_border=true" />
-  </a>
-  <a href="https://github.com/loversky02/vinuni-first-working-agent">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=loversky02&repo=vinuni-first-working-agent&theme=merko&hide_border=true" />
-  </a>
-</p>
+- 🔬 **Build with Paper** — I pick a recent arXiv paper, reproduce its core idea, and ship a demo you can actually run and check.
+- 🧭 Focus: LLM **routing & deliberation**, **agentic evaluation** (honest oracles), **RL post-training** (GRPO / self-play), and **data engines** for Vietnamese.
+- ⚙️ I care about **harness engineering** — the scaffolding that makes agents reliable, cheap, and verifiable.
+- 💻 Iterate locally on a Mac (MLX / Metal); rent GPUs (H100 / H200) only when weights need to move.
 
 ---
 
-## ⚡ Tech Stack
+### Featured — Build with Paper
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-</p>
+**Routing & deliberation**
+- [**super-agent**](https://github.com/loversky02/super-agent) — a unified **cost-aware router**: model × reasoning-depth on one Thompson bandit, drift-aware memory, and a GRPO-internalized Qwen3-4B depth policy.
+- [**System-III-Router**](https://github.com/loversky02/System-III-Router) — learned **deliberation routing** from *Critique of Agent Model* (arXiv:2606.23991); a bandit over reasoning depths (direct → cot → plan+verify), live on Vi-GSM8K.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Claude_Code-000000?style=for-the-badge&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/MCP-FF6C37?style=for-the-badge&logo=protocolsdotio&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-</p>
+**Honest evaluation**
+- [**rtl-gauntlet**](https://github.com/loversky02/rtl-gauntlet) — a **two-tier honest-evaluation** harness for agentic RTL design, backed by a formal oracle.
+- [**agent-memory-lab**](https://github.com/loversky02/agent-memory-lab) — a runnable lab measuring **invalidation & staleness** in agent memory (arXiv:2606.24775).
+
+**Data & post-training**
+- [**vi-gsm8k-agentic**](https://github.com/loversky02/vi-gsm8k-agentic) — Vietnamese GSM8K via **agentic self-instruct**; beats machine-translated data (Qwen3-4B: **81.0%** vs 76.5%). → [🤗 dataset](https://huggingface.co/datasets/vuongtsc/vi-gsm8k-agentic)
+- [**spiced-mini**](https://github.com/loversky02/spiced-mini) — tiny-scale, runnable demos of **SPICED** self-play (arXiv:2606.19370) on a Mac M5.
+
+---
+
+### Toolbox
+
+`Python` · `PyTorch` · `Transformers` · `TRL / GRPO` · `vLLM` · `MLX` · `Hugging Face` · `Docker`
+<br/>**Agents:** Claude Code · custom harnesses · Thompson-bandit routers
 
 ---
 
 <p align="center">
-  <i>Humans steer. Agents execute. The harness makes it possible.</i>
+  <img height="160" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=loversky02&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&hide_title=true&bg_color=00000000&title_color=6C7A89&text_color=6C7A89&icon_color=6C7A89" />
+  &nbsp;
+  <img height="160" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=loversky02&layout=compact&hide_border=true&count_private=true&langs_count=6&hide_title=true&bg_color=00000000&title_color=6C7A89&text_color=6C7A89" />
 </p>
-</div>
+
+<p align="center">
+  <a href="mailto:vuongsky55.cv@gmail.com">📫 vuongsky55.cv@gmail.com</a>
+</p>
+
+<p align="center"><sub><i>Read the paper. Ship the demo. Prove it runs.</i></sub></p>
