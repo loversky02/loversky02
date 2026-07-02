@@ -16,10 +16,10 @@
 
 ### About
 
-- 🔬 **Build with Paper** — I pick a recent arXiv paper, reproduce its core idea, and ship a demo you can actually run and check.
-- 🧭 Focus: LLM **routing & deliberation**, **agentic evaluation** (honest oracles), **RL post-training** (GRPO / self-play), and **data engines** for Vietnamese.
-- ⚙️ I care about **harness engineering** — the scaffolding that makes agents reliable, cheap, and verifiable.
-- 💻 Iterate locally on a Mac (MLX / Metal); rent GPUs (H100 / H200) only when weights need to move.
+- **Build with Paper** — I pick a recent arXiv paper, reproduce its core idea, and ship a demo you can actually run and check.
+- **Focus** — LLM routing & deliberation, agentic evaluation (honest oracles), RL post-training (GRPO / self-play), and data engines for Vietnamese.
+- **Harness engineering** — the scaffolding that makes agents reliable, cheap, and verifiable.
+- **Local-first** — iterate on a Mac (MLX / Metal); rent GPUs (H100 / H200) only when weights need to move.
 
 ---
 
@@ -34,7 +34,7 @@
 - [**agent-memory-lab**](https://github.com/loversky02/agent-memory-lab) — a runnable lab measuring **invalidation & staleness** in agent memory (arXiv:2606.24775).
 
 **Data & post-training**
-- [**vi-gsm8k-agentic**](https://github.com/loversky02/vi-gsm8k-agentic) — Vietnamese GSM8K via **agentic self-instruct**; beats machine-translated data (Qwen3-4B: **81.0%** vs 76.5%). → [🤗 dataset](https://huggingface.co/datasets/vuongtsc/vi-gsm8k-agentic)
+- [**vi-gsm8k-agentic**](https://github.com/loversky02/vi-gsm8k-agentic) — Vietnamese GSM8K via **agentic self-instruct**; beats machine-translated data (Qwen3-4B: **81.0%** vs 76.5%). → [dataset on Hugging Face](https://huggingface.co/datasets/vuongtsc/vi-gsm8k-agentic)
 - [**spiced-mini**](https://github.com/loversky02/spiced-mini) — tiny-scale, runnable demos of **SPICED** self-play (arXiv:2606.19370) on a Mac M5.
 
 ---
@@ -47,13 +47,9 @@
 ---
 
 <p align="center">
-  <img height="160" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=loversky02&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&hide_title=true&bg_color=00000000&title_color=6C7A89&text_color=6C7A89&icon_color=6C7A89" />
-  &nbsp;
-  <img height="160" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=loversky02&layout=compact&hide_border=true&count_private=true&langs_count=6&hide_title=true&bg_color=00000000&title_color=6C7A89&text_color=6C7A89" />
-</p>
-
-<p align="center">
-  <a href="mailto:vuongsky55.cv@gmail.com">📫 vuongsky55.cv@gmail.com</a>
+  <a href="https://github.com/loversky02">GitHub</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:vuongsky55.cv@gmail.com">vuongsky55.cv@gmail.com</a>
 </p>
 
 <p align="center"><sub><i>Read the paper. Ship the demo. Prove it runs.</i></sub></p>
