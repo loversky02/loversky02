@@ -37,6 +37,9 @@
 - [**vi-gsm8k-agentic**](https://github.com/loversky02/vi-gsm8k-agentic) — Vietnamese GSM8K via **agentic self-instruct**; beats machine-translated data (Qwen3-4B: **81.0%** vs 76.5%). → [dataset on Hugging Face](https://huggingface.co/datasets/vuongtsc/vi-gsm8k-agentic)
 - [**spiced-mini**](https://github.com/loversky02/spiced-mini) — tiny-scale, runnable demos of **SPICED** self-play (arXiv:2606.19370) on a Mac M5.
 
+**Multi-objective & control**
+- [**svh-mol**](https://github.com/loversky02/svh-mol) — first public repro of **Annealed Stein Variational Hypernetworks** (arXiv:2506.06715): one hypernetwork traces the whole **Pareto front**, plus GRPO-learned annealing and an LLM multi-objective-alignment bridge. Multi-seed verified, `$0` on a Mac.
+
 ---
 
 ### Toolbox
