@@ -30,6 +30,7 @@
 - [**System-III-Router**](https://github.com/loversky02/System-III-Router) — learned **deliberation routing** from *Critique of Agent Model* (arXiv:2606.23991); a bandit over reasoning depths (direct → cot → plan+verify), live on Vi-GSM8K.
 
 **Honest evaluation**
+- [**paper-forge**](https://github.com/loversky02/paper-forge) — the **reproducibility-review** engine for this whole series: triage the weekly paper firehose → scaffold a repro → **empirically review what actually survives** (HOLDS / BREAKS + a risk-regime check), one notch past static (PAT-style) review. `$0` on a Mac.
 - [**rtl-gauntlet**](https://github.com/loversky02/rtl-gauntlet) — a **two-tier honest-evaluation** harness for agentic RTL design, backed by a formal oracle.
 - [**agent-memory-lab**](https://github.com/loversky02/agent-memory-lab) — a runnable lab measuring **invalidation & staleness** in agent memory (arXiv:2606.24775).
 
