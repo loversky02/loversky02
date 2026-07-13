@@ -33,6 +33,7 @@
 - [**paper-forge**](https://github.com/loversky02/paper-forge) — the **reproducibility-review** engine for this whole series: triage the weekly paper firehose → scaffold a repro → **empirically review what actually survives** (HOLDS / BREAKS + a risk-regime check), one notch past static (PAT-style) review. `$0` on a Mac.
 - [**rtl-gauntlet**](https://github.com/loversky02/rtl-gauntlet) — a **two-tier honest-evaluation** harness for agentic RTL design, backed by a formal oracle.
 - [**agent-memory-lab**](https://github.com/loversky02/agent-memory-lab) — a runnable lab measuring **invalidation & staleness** in agent memory (arXiv:2606.24775).
+- [**promem-vn**](https://github.com/loversky02/promem-vn) — a **proactive memory agent** (arXiv:2607.08716) probed on Crafter: selective injection is ~25× cheaper than passive dumping, but the *score* benefit is regime-limited — an honest **partial-break** (capability dominates for strong agents). `$0` on a Mac.
 
 **Data & post-training**
 - [**vi-gsm8k-agentic**](https://github.com/loversky02/vi-gsm8k-agentic) — Vietnamese GSM8K via **agentic self-instruct**; beats machine-translated data (Qwen3-4B: **81.0%** vs 76.5%). → [dataset on Hugging Face](https://huggingface.co/datasets/vuongtsc/vi-gsm8k-agentic)
